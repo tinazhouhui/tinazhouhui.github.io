@@ -2,11 +2,15 @@ body {
     font-family: 'Open Sans',Arial,sans-serif;;
 }
 
-.tree {
+.tree-box {
     position: relative;
     margin: auto;
     display: block;
     background: brown;
     width: 300px;
     height: 300px;
+}
+
+.tree {
+    text-align: center;
 }
