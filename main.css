@@ -1,19 +1,21 @@
 body {
-    font-family: 'Open Sans',Arial,sans-serif;
-    margin: 6em;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
     position: relative;
     background: dodgerblue;
+    height: 100vh;
 }
 
 .header {
-    font-size: 2em;
+    font-size: 4rem;
     font-weight: bold;
-    margin-bottom: 5em;
+    padding-top: 10rem;
+    margin-bottom: 8rem;
 }
 
 .tree {
-    font-size: 4em;
-    font-family: 'Open Sans',Arial,sans-serif;
+    font-size: 4rem;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .text {
@@ -36,69 +38,69 @@ body {
     border-radius: 16px;
     box-shadow: 2px -2px 10px blanchedalmond;
     position: absolute;
-    top: -35%;
+    top: -33%;
     left: 50%;
     animation: fall-right 15.3s ease-in-out infinite;
 }
 .flake:nth-child(4n + 2) {
     animation: fall-left 13.7s ease-out 7s infinite;
-    top: -18%;
+    top: -15%;
 }
 .flake:nth-child(4n - 3) {
     animation-timing-function: ease-in;
     animation-duration: 16.3s;
     animation-delay: 0s;
-    top: -28%;
+    top: -25%;
 }
 
 .flake:nth-child(4n + 3) {
     animation-timing-function: ease-out;
     animation-duration: 15.8s;
-    top: -39%;
+    top: -36%;
 }
 
 .flake:nth-child(5n - 2) {
     animation: fall-left 15.5s ease-in-out 6.5s infinite;
 
-    top: -13%;
+    top: -10%;
 }
 
 .flake:nth-child(5n - 1) {
     animation-duration: 14.5s;
     animation-delay: 0s;
-    top: -28%;
+    top: -25%;
 }
 
 .flake:nth-child(6n + 4) {
     animation: fall-left 14.3s ease-in-out 6s infinite;
-    top: -28%;
+    top: -23%;
 }
 
 .flake:nth-child(6n - 1) {
     animation-duration: 15.1s;
     animation-delay: 0s;
-    top: -31%;
+    top: -29%;
 }
 
 .flake:nth-child(7n + 1) {
-    animation: fall-left 13.3s ease-in 7s infinite;
-    top: -14%;
+    animation: fall-left 13.3s ease-in 4s infinite;
+    top: -11%;
 }
 
 .flake:nth-child(7n - 2) {
     animation-duration: 13.9s;
     animation-delay: 7s;
-    top: -27%;
+    top: -24%;
 }
 
 .flake:nth-of-type(2) {
     animation: fall-left 14.9s ease-out 7s infinite;
-    top: -38%;
+    top: -35%;
 }
 
 .flake:nth-of-type(22) {
     animation-duration: 14.9s;
-    top: -38%;
+    top: -27%;
 }
 
 .flake--fat {
@@ -123,7 +125,7 @@ body {
         margin-left: 0;
     }
     100% {
-        margin-top: 120%;
+        margin-top: 120vh;
         margin-left: 5%;
         opacity: 0;
     }
@@ -145,7 +147,7 @@ body {
         margin-left: 0;
     }
     100% {
-        margin-top: 100%;
+        margin-top: 100vh;
         margin-left: -3%;
         opacity: 0;
     }
