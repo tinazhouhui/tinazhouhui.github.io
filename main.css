@@ -2,15 +2,151 @@ body {
     font-family: 'Open Sans',Arial,sans-serif;
     margin: 6em;
     position: relative;
+    background: dodgerblue;
 }
 
 .header {
-    text-align: center;
     font-size: 2em;
+    font-weight: bold;
     margin-bottom: 5em;
 }
 
 .tree {
     font-size: 4em;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.text {
     text-align: center;
+}
+
+.snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.flake {
+    background: white;
+    width: 8px;
+    height: 8px;
+    border-radius: 16px;
+    box-shadow: 2px -2px 10px blanchedalmond;
+    position: absolute;
+    top: -35%;
+    left: 50%;
+    animation: fall-right 15.3s ease-in-out infinite;
+}
+.flake:nth-child(4n + 2) {
+    animation: fall-left 13.7s ease-out 7s infinite;
+    top: -18%;
+}
+.flake:nth-child(4n - 3) {
+    animation-timing-function: ease-in;
+    animation-duration: 16.3s;
+    animation-delay: 0s;
+    top: -28%;
+}
+
+.flake:nth-child(4n + 3) {
+    animation-timing-function: ease-out;
+    animation-duration: 15.8s;
+    top: -39%;
+}
+
+.flake:nth-child(5n - 2) {
+    animation: fall-left 15.5s ease-in-out 6.5s infinite;
+
+    top: -13%;
+}
+
+.flake:nth-child(5n - 1) {
+    animation-duration: 14.5s;
+    animation-delay: 0s;
+    top: -28%;
+}
+
+.flake:nth-child(6n + 4) {
+    animation: fall-left 14.3s ease-in-out 6s infinite;
+    top: -28%;
+}
+
+.flake:nth-child(6n - 1) {
+    animation-duration: 15.1s;
+    animation-delay: 0s;
+    top: -31%;
+}
+
+.flake:nth-child(7n + 1) {
+    animation: fall-left 13.3s ease-in 7s infinite;
+    top: -14%;
+}
+
+.flake:nth-child(7n - 2) {
+    animation-duration: 13.9s;
+    animation-delay: 7s;
+    top: -27%;
+}
+
+.flake:nth-of-type(2) {
+    animation: fall-left 14.9s ease-out 7s infinite;
+    top: -38%;
+}
+
+.flake:nth-of-type(22) {
+    animation-duration: 14.9s;
+    top: -38%;
+}
+
+.flake--fat {
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+}
+
+@keyframes fall-left {
+    0% {
+        opacity: 0;
+    }
+    5% {
+        opacity: 1;
+    }
+    45% {
+        opacity: 1;
+        margin-left: 10%;
+    }
+    68% {
+        opacity: 1;
+        margin-left: 0;
+    }
+    100% {
+        margin-top: 120%;
+        margin-left: 5%;
+        opacity: 0;
+    }
+}
+
+@keyframes fall-right {
+    0% {
+        opacity: 0;
+    }
+    5% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 1;
+        margin-left: -8%;
+    }
+    73% {
+        opacity: 1;
+        margin-left: 0;
+    }
+    100% {
+        margin-top: 100%;
+        margin-left: -3%;
+        opacity: 0;
+    }
 }
