@@ -9,6 +9,7 @@ Pull requests are welcome, if you have any suggestions on improvement 🙌
 
 ## Technology
 - code: HTML and CSS
+- responsiveness: mobile first
 - deploy: GitHub Pages
 
 ## Snow effect 
