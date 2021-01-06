@@ -36,13 +36,13 @@ body {
 .flake {
     animation: fall-right 15.3s ease-in-out infinite;
     background: white;
-    border-radius: 16px;
-    box-shadow: 2px -2px 10px blanchedalmond;
-    height: 8px;
+    border-radius: 1rem;
+    box-shadow: 0.125rem -0.125rem 0.625rem blanchedalmond;
+    height: 0.5rem;
     left: 50%;
     position: absolute;
     top: -33%;
-    width: 8px;
+    width: 0.5rem;
 }
 
 .flake:nth-child(4n + 2) {
@@ -107,9 +107,9 @@ body {
 }
 
 .flake--fat {
-    border-radius: 30px;
-    height: 15px;
-    width: 15px;
+    border-radius: 2rem;
+    height: 1rem;
+    width: 1rem;
 }
 
 @keyframes fall-left {
@@ -128,9 +128,9 @@ body {
         margin-left: 0;
     }
     100% {
-        margin-top: 120vh;
-        margin-left: 5%;
         opacity: 0;
+        margin-left: 5%;
+        margin-top: 120vh;
     }
 }
 
@@ -150,8 +150,8 @@ body {
         margin-left: 0;
     }
     100% {
-        margin-top: 100vh;
-        margin-left: -3%;
         opacity: 0;
+        margin-left: -3%;
+        margin-top: 100vh;
     }
 }
