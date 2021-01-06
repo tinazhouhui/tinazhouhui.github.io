@@ -4,7 +4,7 @@ This project started as an application for mentorship with ReactGirlsPrague, che
 Pull requests are welcome, if you have any suggestions on improvement 🙌
 
 ## Run
-- Access the PF (here on this link)[https://tinazhouhui.github.io/]. 
+- Access the PF [here on this link](https://tinazhouhui.github.io/). 
 - Clone this repository locally and open ```index.html```
 
 ## Technology
