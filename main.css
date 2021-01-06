@@ -3,6 +3,7 @@ body {
     margin: 0;
     position: relative;
     background: dodgerblue;
+    background-image: linear-gradient(#bababa, #4e7ce0, #0066ff, #024de2, #0142c1);
     height: 100vh;
 }
 
