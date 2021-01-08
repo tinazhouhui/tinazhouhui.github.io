@@ -13,7 +13,7 @@ Pull requests are welcome, if you have any suggestions on improvement 🙌
 - deploy: GitHub Pages
 
 ## Snow effect 
-The biggest challenge of this effect was to create the feeling of randomness of falling snow. I have achieved that by selecting an nth element of div and changing these four parameters:
+The biggest challenge of this effect was to create the feeling of randomness of falling snow. I have achieved that by selecting an nth element of div and changing these  parameters:
 - animation keyframes - fall-left or fall-right
 - animation function - ease-in or ease-out
 - animation duration - 13-16 seconds
