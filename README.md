@@ -22,7 +22,7 @@ The biggest challenge of this effect was to create the feeling of randomness of 
 
 To decide for the calculation of nth element, I have used the help of excel. I have 30 snowflakes, so using trial and error I tried to cover all snowflakes while at the same time trying to limit each child-group to max 5 elements.
 
-###How does it work
+### How does it work
 1. Create a ```<div>``` that would be overlapping everything else and set it to screen size - this is the area that will "hold" the snow.
 2. Create your ```flakes```, here we can be more creative, either using unicode emojis like ```❄``` or in my case two divs - one for normal and one for fat snowflake. I also added a slight halo effect.
 3. Define animation keyframes, or in other words the trajectory of the snowflake. Good idea is to create more than one to create variety.  
