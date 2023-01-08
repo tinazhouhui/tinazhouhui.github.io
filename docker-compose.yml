@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  client:
+    image: 'node:18-bullseye'
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/client
+    working_dir: /client
+    command: bash -c 'npm install && npm start'
